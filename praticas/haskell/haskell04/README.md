@@ -77,7 +77,7 @@ Entregue todos os exercícios abaixo no arquivo `haskell04.hs`, que já está cr
    [(10,10,2),(14,10,2),(18,10,2),(22,10,2),(26,10,2)]
    ```
 
-6. Suponha novamente que uma cor seja representada por uma tupla `(Int,Int,Int)`, contendo valores (R=red,G=Green,B=blue). Sabendo disso, crie uma função `genReds :: Int -> [(Int,Int.Int)] ` que receba um número N e gere uma lista com N tons de vermelho calculados (não enumere cada um dos valores literalmente com números "hard-coded"). Você pode repetir valores, se desejar. Abaixo está um exemplo de uso dessa função:
+6. Suponha novamente que uma cor seja representada por uma tupla `(Int,Int,Int)`, contendo valores (R=red,G=Green,B=blue). Sabendo disso, crie uma função `genReds :: Int -> [(Int,Int,Int)] ` que receba um número N e gere uma lista com N tons de vermelho calculados (não enumere cada um dos valores literalmente com números "hard-coded"). Você pode repetir valores, se desejar. Abaixo está um exemplo de uso dessa função:
    ```
    > genReds 5
    [(80,0,0),(90,0,0),(100,0,0),(110,0,0),(120,0,0),(130,0,0)]
